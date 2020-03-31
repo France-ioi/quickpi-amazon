@@ -1,0 +1,365 @@
+
+body {
+}
+
+/* Spacing */
+
+.mt-5 {
+  margin-top: 81px !important;
+}
+
+.mb-5 {
+  margin-bottom: 81px !important;
+}
+
+.b-blue {
+  background-color: #29458C;
+}
+
+.b-green {
+  background-color: #046976;
+}
+
+.c-blue {
+  color: #29458C;
+}
+
+.c-green {
+  color: #07FF07;
+}
+
+.c-dark-green {
+  color: #043D3C;
+}
+
+.c-dark-green-1 {
+  color: #046976;
+}
+
+.c-white {
+  color: white;
+}
+
+.front {
+  margin: 22px 33px 63px;
+}
+
+.ioi-icon {
+  background-color: white;
+  height: 54px;
+  width: 108px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.lg-text {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.md-text {
+  font-size: 30px;
+}
+
+.text-parcours {
+  font-size: 24px;
+}
+
+.sm-text {
+  font-size: 16px;
+}
+
+.f-titillium-bold {
+  font-family: "Titillium Web";
+  font-weight: bold;
+}
+
+.f-titillium-regular {
+  font-family: "Titillium Web";
+}
+
+.f-titillium-light {
+  font-family: "Titillium Web";
+  font-weight: lighter;
+}
+
+.f-quick-sand-bold {
+  font-family: "Quicksand";
+}
+
+.lt-space-7 {
+  letter-spacing: -0.7px;
+}
+
+.discover-btn {
+  border-radius: 25px;
+  height: 50px;
+  border: 2px solid #29458C;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.link-wrapper {
+  border-radius: 100px;
+  width: 145px;
+  height: 145px;
+  background-color: white;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+
+.to-bottom {
+  border-radius: 100px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: calc(50% - 20px);
+  bottom: 20px;
+}
+
+.parcours-image {
+  border-radius: 100%;
+  width: 265px;
+  height: 265px;
+  background-color: #04979619;
+  position: relative;
+}
+
+.parcours-image.active {
+  background-color: #049796;
+}
+
+.parcours-image img {
+  position: absolute;
+}
+
+.parcours-image-1 {
+  left: -67px;
+  top: -28px;
+}
+
+.parcours-image-2 {
+  left: -20px;
+  top: -5px;
+}
+
+.parcours-image-3 {
+  left: 8px;
+  top: 20px;
+}
+
+.todo {
+  margin-right: 30px;
+  font-size: 24px;
+}
+
+.info-row {
+  margin-top: 81px;
+  margin-bottom: 81px;
+}
+
+.info-row p {
+  margin-bottom: 20px;
+}
+
+.info-row p.text-trans {
+  color: #A9D3D3;
+}
+
+.info-row p:last-child {
+  margin-bottom: 0;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.logo .back {
+  position: absolute;
+  top: 130px;
+  left: 33px;
+  right: 21px;
+  bottom: 63px;
+  z-index: 0;
+}
+
+.logo .quick-pi {
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+.desc-row {
+  flex-direction: row;
+}
+
+.desc-row .desc-row-left {
+  flex: 1;
+  font-size: 32px;
+}
+
+.desc-row .desc-row-right {
+  flex: 1;
+  font-size: 16px;
+}
+
+.pi-history {
+  margin-top: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.continue-row {
+  border-top: solid 1px rgba(0, 0,0, .1);
+  padding-top: 81px;
+}
+
+.continue-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.continue-code {
+  margin-right: 26px;
+}
+
+.continue-code::placeholder {
+  font-style: italic;
+}
+
+.continue-btn {
+  justify-content: center;
+}
+
+.continue-btn:hover {
+  color: white;
+}
+
+.detail-info {
+  margin-bottom: 65px;
+}
+
+@media (max-width: 991.98px) {
+  .logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #29458CD0;
+  }
+
+  .lg-text {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .md-text {
+    font-size: 28px;
+  }
+
+  .text-parcours {
+    font-size: 24px;
+    margin-left: 9px;
+  }
+
+  .sm-text {
+    font-size: 16px;
+  }
+
+  .logo .back {
+    top: 12px;
+    left: 9px;
+    right: 21px;
+    bottom: 24px;
+  }
+
+  .logo .quick-pi {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .desc-row {
+    flex-direction: column;
+  }
+
+  .desc-row .desc-row-left {
+    font-size: 21px;
+  }
+
+  .desc-row .desc-row-right {
+    font-size: 14px;
+  }
+
+  .pi__mobile {
+    width: 60%;
+  }
+
+  .pi-desc__mobile {
+    line-height: 26px;
+  }
+
+  .pi-history {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .link-wrapper {
+    margin: 5px;
+  }
+
+  .info-row {
+    margin: 45px 20px 50px;
+  }
+
+  .parcours-image {
+    transform: scale(0.7);
+  }
+
+  .detail-info {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .continue-code {
+    margin-right: 0;
+    margin-bottom : 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .lg-text {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .md-text {
+    font-size: 21px;
+  }
+
+  .text-parcours {
+    font-size: 21px;
+    margin-left: 9px;
+  }
+
+  .sm-text {
+    font-size: 14px;
+  }
+
+  .continue-code {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom : 20px;
+  }
+
+  .continue-btn {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
