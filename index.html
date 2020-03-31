@@ -151,10 +151,10 @@
     <div class="container">
       <p class="continue-text col-lg-8 offset-lg-2 c-blue f-titillium-regular">Si vous avez commencé une participation et voulez la reprendre, entrez votre code ici : </p>
       
-      <form class="row justify-content-center" action="https://concours.castor-informatique.fr" method="get" id="form-continue">
-        <input id="code" name="team" class="discover-btn c-blue f-titillium-regular col-lg-5 offset-lg-1 continue-code" type="text" placeholder="Votre code de participation..."></input>
-        <button class="continue-btn b-blue c-white col-lg-3 discover-btn sm-text f-titillium-regular c-blue d-flex align-items-center" type="submit" form="form-continue" value="Submit" >Continuer</button>
-      </form>
+      <div class="row justify-content-center">
+        <input id="code" class="discover-btn c-blue f-titillium-regular col-lg-5 offset-lg-1 continue-code" type="text" placeholder="Votre code de participation..."></input>
+        <button class="continue-btn b-blue c-white col-lg-3 discover-btn sm-text f-titillium-regular c-blue d-flex align-items-center" onclick="continueParticipation()">Continuer</button>
+      </div>
       
     </div>
   </div>
